@@ -1,0 +1,123 @@
+body {
+    background-image: url(/images/forest-5855196_1920.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    text-overflow: ellipsis;
+}
+/* A container for everything on the page */
+.bigbox {
+    width: 100%;
+    height: 100%;
+}
+/* the main grid that everything else is inside of */
+.gridbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 50% 200px 20%;
+    width: 100%;
+    height: 100%;
+}
+.boxa1 {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    width: 100%;
+    background-color: rgba(194, 194, 194, 0.5);
+
+}
+
+.boxa2{      
+    padding: 1%;
+    width: 100%;
+    background-color: rgba(194, 194, 194, 0.5);
+}
+.boxb1{
+    grid-column: 1;
+    grid-row: 2;
+    width: 100%;
+    margin: 0;
+    height: auto;
+    background-color: rgba(194, 194, 194, 0.7);
+    overflow:visible;
+}
+/* this happens when you hover the mouse over */
+.boxb1:hover {
+    margin-left: 15%;
+    transform: scale(130%);
+ }
+
+.boxc1{
+    grid-column: 2 ;
+    grid-row: 2;
+    width: 100%;
+    height: auto;
+    background-color: rgba(194, 194, 194, 0.7);
+}
+/* this happens when you hover the mouse over */
+.boxc1:hover {
+    transform: scale(130%);
+ }
+
+.boxd1{
+    grid-column: 3;
+    grid-row: 2;
+    width: 100%;
+
+    height: auto;
+    background-color: rgba(194, 194, 194, 0.7);
+}
+/* this happens when you hover the mouse over box d */
+.boxd1:hover {
+    margin-right: 15%;
+    transform: scale(130%);
+ } 
+
+.boxe1{
+    grid-column: 1 / -1;
+    grid-row: 3;
+    width: 100%;
+    height: 20%;
+    background-color: rgba(194, 194, 194, 0.5);
+}
+
+
+.boxf1{
+    grid-column: 1 / -1;
+    grid-row: 4;
+    width: 100%;
+    height: 300px;
+    background-color: rgba(194, 194, 194, 0.5);
+}
+
+
+.forestimg {
+   width: 100%;
+   height: 100%;
+   opacity: 0.5;
+}
+
+.loveourimg {
+    background-image: url(/images/loveourplanet-4851331_1920.jpg);
+    background-position: top;
+    width: 100%;
+    height: 100%;
+ }
+
+ .loveourimg2 {
+    background-image: url(/images/loveourplanet-4851331_1920.jpg);
+    background-position: center;
+    width: 100%;
+    height: 100%;
+
+ }
+
+ .loveourimg3 {
+    background-image: url(/images/loveourplanet-4851331_1920.jpg);
+    background-position: bottom;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+ }
+ a {
+    color:brown;
+ }
